@@ -87,7 +87,6 @@ body {
   font-size: 30px;
   padding: 2%;
   color: orangered;
-
 }
 
 .head-title {
@@ -146,7 +145,7 @@ body {
   padding: 2%;
 }
 
-.program-content{
+.program-content {
   list-style: none;
   display: flex;
   padding-block: 3%;
@@ -439,7 +438,7 @@ footer {
     text-align: left;
   }
 
-  .program-content{
+  .program-content {
     flex-direction: column;
   }
 

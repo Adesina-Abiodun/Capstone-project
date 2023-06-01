@@ -16,7 +16,6 @@ function closeMenu() {
 menuBtn.addEventListener('click', openMenu);
 menuOptions.forEach((option) => option.addEventListener('click', closeMenu));
 
-
 const SpeakersData = [
 
   {
@@ -42,9 +41,8 @@ const SpeakersData = [
     speakerProfession: 'Research Assistant',
     speakerInfo: 'Oluwabusolami is a Lecturer (Assistant Professor) at School of Language, University of Glasgow, United Kingdom.',
     speakerImage: './assets/person3.jpeg',
-  }
+  },
 ];
-
 
 function createSpeakerCard(speaker) {
   return `
@@ -78,7 +76,7 @@ function mySpeakers() {
     <ul class="speakersList">
   `;
 
-  SpeakersData.forEach((speaker, index) => {
+  SpeakersData.forEach((speaker) => {
     const speakerCard = createSpeakerCard(speaker);
     cardContent += speakerCard;
   });
