@@ -80,12 +80,6 @@ body {
   background-image: url(./assets/bg_img.jpg);
 }
 
-.inner-div {
-  text-align: center;
-  padding-block: 6%;
-  padding-inline: 4%;
-}
-
 .heading {
   color: orangered;
   font-size: 1.875rem;
@@ -323,13 +317,15 @@ footer {
 }
 
 .event1 {
-  background: linear-gradient(rgba(199, 70, 55, 0.8), rgba(236, 82, 66, 0.8)),
+  background:
+    linear-gradient(rgba(199, 70, 55, 0.8), rgba(236, 82, 66, 0.8)),
     url('./assets/winner2Latest.jpg');
   background-repeat: no-repeat;
 }
 
 .event2 {
-  background: linear-gradient(rgba(199, 70, 55, 0.8), rgba(236, 82, 66, 0.8)),
+  background:
+    linear-gradient(rgba(199, 70, 55, 0.8), rgba(236, 82, 66, 0.8)),
     url(./assets/win2.jpg);
   background-repeat: no-repeat;
 }
@@ -360,7 +356,6 @@ footer {
 }
 
 .venue {
-  font-size: 1.1rem;
   padding-top: 2%;
   font-style: normal;
   font-weight: 700;
@@ -378,7 +373,7 @@ footer {
 
   .logo-title {
     margin: 0;
-}
+  }
 
   .secondNav .logo {
     display: none !important;
@@ -424,6 +419,7 @@ footer {
     display: flex;
     align-items: center;
   }
+
   .active .menuIcon {
     display: none;
   }
@@ -458,7 +454,6 @@ footer {
   }
 
   .date {
-    font-size: 1.6rem;
     padding-top: 4%;
     font-style: normal;
     font-weight: 900;

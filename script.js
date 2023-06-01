@@ -105,4 +105,3 @@ function mySpeakers() {
 }
 
 window.addEventListener('load', mySpeakers);
-
